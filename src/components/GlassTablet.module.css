@@ -1,0 +1,38 @@
+.glassTablet {
+     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+     backdrop-filter: blur(10px);
+     height: 450px;
+     width: 250px;
+     -webkit-backdrop-filter: blur(10px);
+     border-radius: 20px;
+     padding: 20px 15px;
+     border: 1px solid rgba(255, 255, 255, 0.18);
+     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+.wheatherIcon {
+     width: 100%;
+     margin: 0px 0px 5px 0px;
+}
+
+.forecastContainer {
+     width: -webkit-fill-available;
+     max-width: 220px;
+     overflow-x: auto;
+     display: flex;
+     gap: 15px;
+}
+
+.forecastItem{
+     width: fit-content;
+}
+
+.forecastContainer img {
+     width: 40px;
+     min-width: 40px;
+}
+
+.wheatherIcon img {
+     width: 110px;
+}
